@@ -70,6 +70,10 @@ candlestick_ohlc(ax1,df_ohlc.values,width=2,colorup='g')
 ax2.fill_between(df_volume.index.map(mdates.date2num),df_volume.values,0)
 plt.show()
 
+#Attention: Codes above are only taking into account the stock price of TESLA. The final goal is to create a Price 
+#Analysis combination of more than 50 stocks. 
+
+
 
 
 
